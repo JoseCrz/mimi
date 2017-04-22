@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
+
 .portada .button {
   margin-bottom: 100px;
 }
