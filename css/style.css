@@ -1,27 +1,41 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+.portada .button {
+  margin-bottom: 100px;
 }
 
 .titulo {
   font-family: 'Lobster Two', cursive;
   font-size: 80px;
+  margin-bottom: 0px;
+  margin-top: 100px;
 }
 
 .titulo-a {
   font-size: 35px;
+  margin-top: 0px;
 }
 
 .title-b {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .mimis h2 {
   font-size: 35px;
 }
 
+.mimis li {
+  font-size: 20px;
+}
+
 .portada {
   background-image: url("../images/background.JPG");
   color:white;
+  padding: 20px;
 }
 .mimis {
   color: #455A64;
@@ -34,9 +48,11 @@ body {
 
 .menu li {
   display: inline-block;
+  margin-left: 30px;
 }
 
 .logo {
   display: inline-block;
 }
+
 
