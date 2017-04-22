@@ -34,7 +34,7 @@ body {
 }
 
 .mimis li {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .portada {
@@ -49,6 +49,8 @@ body {
 .menu {
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  right: 0;
 }
 
 .menu li {
@@ -60,4 +62,47 @@ body {
   display: inline-block;
 }
 
+.mimis img {
+  border-radius: 50%;
+}
+
+.mimi {
+  /*overflow: hidden;*/
+  border: 1px solid #455A64;
+  padding: 10px;
+  margin: 50px 50px 80px 50px;
+  border-radius: 15px;
+}
+
+
+.derecha {
+  float: right;
+  position: relative;
+  top: -50px;
+  right: -50px;
+}
+
+.izquierda {
+  float: left;
+  position: relative;
+  top: -30px;
+  left: -50px;
+}
+
+.contenedor-mimi-i {
+  margin-left: 415px;
+}
+
+.header {
+  position: relative;
+}
+
+.button {
+  border-radius: 5px;
+  background: #009688;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
 
