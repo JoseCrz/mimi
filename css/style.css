@@ -106,3 +106,20 @@ body {
   font-size: 20px;
 }
 
+.footer {
+  background: #455A64;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+}
+
