@@ -85,7 +85,35 @@
           <a href="mailto:mimi@bebe.com"><strong>Correo: </strong><span>mimi@bebe.com</span></a>
         </div>
         <div class="formulario">
-
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" required name="nombre" />
+          <label for="email">Correo</label>
+          <input type="text" id="email" required name="email" />
+          <div class="sexo">
+            <label for="mujer">
+              <input type="radio" id="mujer" name="sexo" value="mujer" required />Mujer
+            </label>
+            <label for="hombre">
+              <input type="radio" id="hombre" name="sexo" value="hombre" required />Hombre
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" />Cotización
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses" value="reclamos" />Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="interes" value="otros">Otros
+            </label>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="7" cols="30"></textarea>
+            <input class="button" type="submit" value="Enviar">
+          </div>
         </div>
       </div>
     </footer>

@@ -108,6 +108,7 @@ body {
 
 .footer {
   background: #455A64;
+  color: white;
 }
 
 .contacto img {
@@ -119,7 +120,7 @@ body {
 }
 
 .contacto a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
