@@ -1,6 +1,12 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+  background: #fafafa;
+}
+
+input, textarea {
+  outline-color: #009688;
+  outline-width: 6px;
 }
 
 .contenedor {
@@ -15,8 +21,8 @@ body {
 .titulo {
   font-family: 'Lobster Two', cursive;
   font-size: 80px;
-  margin-bottom: 0px;
-  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-top: 120px;
 }
 
 .titulo-a {
@@ -41,6 +47,11 @@ body {
   background-image: url("../images/background.JPG");
   color:white;
   padding: 20px;
+  background-size: cover;
+  height: 700px;
+  -webkit-box-shadow: -8px 11px 9px -5px rgba(0,0,0,0.2);
+-moz-box-shadow: -8px 11px 9px -5px rgba(0,0,0,0.2);
+box-shadow: -8px 11px 9px -5px rgba(0,0,0,0.2);
 }
 .mimis {
   color: #455A64;
@@ -53,13 +64,22 @@ body {
   right: 0;
 }
 
+.menu a {
+  color: white;
+  text-decoration: none;
+}
 .menu li {
   display: inline-block;
   margin-left: 30px;
 }
 
+.menu li:before {
+  content: "⇾";
+}
+
 .logo {
   display: inline-block;
+  margin-left:0;
 }
 
 .mimis img {
@@ -72,6 +92,10 @@ body {
   padding: 10px;
   margin: 50px 50px 80px 50px;
   border-radius: 15px;
+  background: white;
+  -webkit-box-shadow: -8px 11px 9px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: -8px 11px 9px 0px rgba(0,0,0,0.2);
+box-shadow: -8px 11px 9px 0px rgba(0,0,0,0.2);
 }
 
 
@@ -102,14 +126,30 @@ body {
   background: #009688;
   color: white;
   border: none;
-  padding: 8px;
-  font-size: 17px;
+  padding: 10px 15px;
+  font-size: 20px;
   margin-top: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.col2 .button {
+  border-radius: 5px;
+  background: #009688;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .footer {
   background: #455A64;
   color: white;
+  -webkit-box-shadow: -8px -10px 9px -5px rgba(0,0,0,0.2);
+-moz-box-shadow: -8px -10px 9px -5px rgba(0,0,0,0.2);
+box-shadow: -8px -10px 9px -5px rgba(0,0,0,0.2);
 }
 
 .contacto {
