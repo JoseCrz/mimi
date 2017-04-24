@@ -124,3 +124,7 @@ body {
   color: white;
 }
 
+textarea {
+  display: block;
+}
+

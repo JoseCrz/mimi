@@ -97,7 +97,7 @@
               <input type="radio" id="hombre" name="sexo" value="hombre" required />Hombre
             </label>
           </div>
-          <div class="intereses">
+          <form class="intereses">
             <label for="cotizacion">
               <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" />Cotización
             </label>
@@ -110,10 +110,11 @@
             <label for="otros">
               <input type="checkbox" id="otros" name="interes" value="otros">Otros
             </label>
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" rows="7" cols="30"></textarea>
-            <input class="button" type="submit" value="Enviar">
-          </div>
+            <label for="mensaje">
+              <textarea id="mensaje" rows="7" cols="30"></textarea>
+              <input type="submit" value="Enviar">
+            </label>
+          </form>
         </div>
       </div>
     </footer>
